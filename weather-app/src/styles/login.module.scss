@@ -1,0 +1,164 @@
+.container{
+    margin-top: 2rem;
+    height: 31.73rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   >form{
+    text-align: center;
+    display: flex;
+    width: 25%;
+   flex-direction: column;
+    justify-content: space-between;
+    background: rgb(0, 181, 226, 0.5);
+    padding: 2rem 5rem;
+    height: 90%;
+    >div{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        >h2{
+            margin: 0%;
+            padding: 0%;
+        }
+        >div{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            >input{
+                border-radius: 0.3rem;
+                padding: 0.2rem;
+                font-size: 1rem;
+            }
+        }   
+        >.button{
+        align-self: flex-end; 
+        >button{
+            padding: 0.3rem;
+            border-radius: 0.3rem;
+            cursor: pointer;
+        }  
+        >button:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        }  
+    }
+   }
+}
+.google{
+    margin: 0 auto;
+    width: 60% !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    >h5{
+        padding: 0%;
+        margin: 0%;
+    }
+    >img{
+        height: 2rem;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .container{
+        height: 30.73rem;
+        form{
+        >div{
+            >div{
+                >input{
+                    width: 60% !important;
+                }
+            }
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width:1261px) {
+    .container{
+        >form{
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .container{
+        height: 35rem !important;
+        >form{
+            height: 30rem;
+            width: 35%;
+        }
+    }
+}
+
+@media screen and (max-width:895px) {
+    .container{
+        >form{
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width:790px) {
+    .container{
+        >form{
+            width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width:695px) {
+    .container{
+        >form{
+            width: 50%;
+        }
+    }
+    .google{
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width:551px) {
+    .container{
+        >form{
+            width: 55%;
+        }
+    }
+    .google{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        margin-top: 1rem;
+        >form{
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width:430px) {
+    .container{
+        >form{
+            width: 80%;
+            padding: 1rem 3rem;
+        }
+    }
+}
+@media screen and (max-width:380px) {
+    .container{
+        >form{
+            width: 90%;
+            padding: 1rem 2rem;
+        }
+    }
+}

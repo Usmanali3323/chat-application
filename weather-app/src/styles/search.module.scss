@@ -1,0 +1,184 @@
+.w_container{
+padding:  1rem 5rem;
+margin: 0rem 2rem 0rem 2rem;
+>form{
+    label{
+      font-size: 1.4rem;
+    }
+    input{
+        margin-left: 0.2rem;
+        padding: 0.3rem;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 8%;
+    }
+    >.weather_input{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        >.main{
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+        >.dir{
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 1rem;
+            margin-left: 4rem;
+           >img{
+             align-self: flex-start;
+             padding-top: 1rem;
+             height: 50%;
+             cursor: pointer;
+           }
+            >h3{
+             margin-right: 2rem;
+            }
+         }
+        }
+        // >.lat_lon_but{
+        //     width: 60%;
+        //     display: flex;
+        //     justify-content: flex-end;
+        //     // >div{
+        //     //     >input{
+        //     //      margin: 0.1rem;
+        //     //     }
+        //     // }
+        // }
+    }
+}
+
+}
+
+.img{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: white;
+    margin-bottom: -0.1rem;
+}
+.search{
+    padding: 0.2rem;
+}
+.lat_lon{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    >button{
+        cursor: pointer;
+        margin-left: -1rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+    >div{
+    >label{
+        background: black;
+        color: white;
+        padding: 0.3rem 0.4rem;
+        font-size: 1rem;
+    }
+} 
+}
+input{
+    border-radius: 25%;
+    padding: 0.2rem;
+}
+
+
+@media screen and (min-width:1500px){
+.lat_lon{
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 1257px) {
+    .w_container{
+        padding: 1rem 2rem;
+        margin: 0rem 0.5rem;
+    }
+    .weather_input{
+      align-items: flex-start !important;
+     flex-direction: column;
+    }
+    .main{
+        width: 80% !important;
+    }
+    .dir{
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    .lat_lon{
+      width: 75% !important; 
+    }
+} 
+
+@media screen and (max-width: 1057px) {
+    .main{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .main{
+        width: 100% !important;
+    }
+    .lat_lon{
+        width: 80% !important; 
+      }
+}
+@media screen and (max-width: 850px) {
+    .lat_lon{
+        width: 90% !important; 
+      }
+}
+
+@media screen and (max-width: 760px) {
+    .w_container{
+        padding:  1rem 1rem;
+        margin: 0rem 0rem;
+    }
+    .lat_lon{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .w_container{
+        padding:  1rem 1rem;
+        margin: 0rem 1rem;
+    }
+    .main{
+        align-items: flex-end !important;
+    }
+
+.lat_lon{
+    flex-direction: column;
+    height: 7rem;
+    align-items: flex-end;
+    >button{
+        width: 5rem;
+       align-self: flex-end;
+    }
+    >div{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+input{
+    width: 60%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.dir{
+    >h3{
+        padding: 0%;
+        margin: 0%;
+    }
+}
+form{
+    input{
+        margin-left: 0.1rem !important;
+    }
+}
+}

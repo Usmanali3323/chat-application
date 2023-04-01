@@ -1,0 +1,33 @@
+
+body{
+    background-image: url('./assets/footer.jpg');
+    /* background-size: cover; */
+    background-size: 100vw 130vh;
+    margin: 0% 0%;
+    padding: 0% 0%;
+}
+@media screen and (max-width: 1000px) {
+    body{
+    background-size: 100vw 130vh;   
+    }
+}
+@media screen and (max-width:1090px){
+   body{
+    background-size: 100vw 130vh;
+   }
+}
+@media screen and (max-width:1000px){
+    body{
+        /* background-color:  #71BCE1; */
+        background-image: url('./assets/footer.jpg') !important;
+        /* background-repeat: repeat;
+        background-size: 100vw 140vh; */
+        background-size: cover !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
